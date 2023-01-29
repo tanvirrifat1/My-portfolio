@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import contactusImage from "../public/assets/contact-us.jpg";
 
 const Contact = () => {
@@ -58,6 +57,7 @@ const Contact = () => {
           <div className="col-span-3 w-full h-auto rounded-xl lg:p-4">
             <div className="p-4 text-left">
               <form
+              
                 action="https://getform.io/f/305bdcd9-527b-4954-8adf-66e78c7d1619"
                 method="POST"
               >

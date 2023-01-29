@@ -11,10 +11,12 @@ const About = () => {
         </p>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-2xl mx-auto">
-            Is bleak tapping from maiden thy bird, the me ever door wind leave.
-            Is plume as followed lattice air, of i horror nodded bird opened
-            laden his desert above, black and turning off than oer still in
-            then, but that and morrow into at this, as angels wide a we.
+            I am a positive, enthusiastic Mern Stack Web developer. I build up a diverse range of
+            skills, qualities, and attributes that I will perform highly in this role. I have extensive
+            experience working both alone and as part of a team often time-sensitive.
+            I want to learn a lot more like nextJS, redux, socket IO, etc. I take
+            my work as a Web Developer seriously and this means I always ensure my skills
+            are kept up to date within this rapidly changing industry.
           </p>
           <p className="py-4 max-w-2xl mx-auto">
             Straight bends all i a shutter. Though is prophet being much of
@@ -25,12 +27,7 @@ const About = () => {
             plutonian thrilled my of wandering name surely, dirges the in the
             burning there nothing that bore. The.
           </p>
-          <p className="py-4 max-w-2xl mx-auto">
-            Is bleak tapping from maiden thy bird, the me ever door wind leave.
-            Is plume as followed lattice air, of i horror nodded bird opened
-            laden his desert above, black and turning off than oer still in
-            then, but that and morrow into at this, as angels wide a we.
-          </p>
+       
         </div>
         <div className="flex items-center justify-center gap-10">
           <Link href="/resume.pdf" download={true}>

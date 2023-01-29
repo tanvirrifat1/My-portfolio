@@ -4,9 +4,9 @@ import html from "../public/assets/experience/html.png";
 import css from "../public/assets/experience/css.png";
 import javascript from "../public/assets/experience/javascript.png";
 import reactImage from "../public/assets/experience/react.png";
-import nextjs from "../public/assets/experience/nextjs.png";
+import nextjs from "../public/assets/experience/Bootstrap.png";
 import tailwind from "../public/assets/experience/tailwind.png";
-import graphql from "../public/assets/experience/graphql.png";
+import graphql from "../public/assets/experience/firebase.png";
 import node from "../public/assets/experience/node.png";
 
 const Experience = () => {
@@ -33,7 +33,7 @@ const Experience = () => {
     },
     {
       id: 5,
-      title: "Next JS",
+      title: "Bootstrap",
       src: nextjs,
     },
     {
@@ -43,7 +43,7 @@ const Experience = () => {
     },
     {
       id: 7,
-      title: "GraphQL",
+      title: "Firebase",
       src: graphql,
     },
     {

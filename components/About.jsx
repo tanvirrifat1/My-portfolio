@@ -1,22 +1,35 @@
 import React from "react";
 import { MdExpandMore } from "react-icons/md";
 import Link from "next/link";
+import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
   return (
     <div id="me" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16">
-        <p className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold text-center md:text-left">
-          Me
+
+
+       <p className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+       ME
         </p>
+
+        <span className="text-2xl" style={{ color: 'blue', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+         
+        </span>
         <div className="shadow-xl shadow-blue-300 my-8 px-8">
           <p className="py-4 max-w-2xl mx-auto">
-            I am a positive, enthusiastic Mern Stack Web developer. I build up a diverse range of
-            skills, qualities, and attributes that I will perform highly in this role. I have extensive
-            experience working both alone and as part of a team often time-sensitive.
-            I want to learn a lot more like nextJS, redux, socket IO, etc. I take
-            my work as a Web Developer seriously and this means I always ensure my skills
-            are kept up to date within this rapidly changing industry.
+
+            <Typewriter
+            words={['I am a positive, enthusiastic Mern Stack Web developer. I build up a diverse range ofskills, qualities, and attributes that I will perform highly in this role. I have extensiveexperience working both alone and as part of a team often time-sensitive.I want to learn a lot more like nextJS, redux, socket IO, etc. I take my work as a Web Developer seriously and this means I always ensure my skillsare kept up to date within this rapidly changing industry.']}
+            loop={5}
+            cursor
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+
+          />
+
           </p>
           <p className="py-4 max-w-2xl mx-auto">
             Straight bends all i a shutter. Though is prophet being much of

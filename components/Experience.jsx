@@ -8,6 +8,7 @@ import nextjs from "../public/assets/experience/Bootstrap.png";
 import tailwind from "../public/assets/experience/tailwind.png";
 import graphql from "../public/assets/experience/firebase.png";
 import node from "../public/assets/experience/node.png";
+import { Typewriter } from "react-simple-typewriter";
 
 const Experience = () => {
   const experience = [
@@ -56,9 +57,21 @@ const Experience = () => {
   return (
     <div id="experience" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <p className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-          Experience
-        </p>
+
+        <span className="text-7xl" style={{ color: 'blue', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={[' EXPERIENCE']}
+            loop={5}
+            cursor
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+
+          />
+        </span>
+
+
         <h2 className="py-4 max-w-lg">
           Entrance gloating i nothing soul quoth desolate. My he bird still just
           of theeby lattice. Nearly ominous leave god is.

@@ -16,7 +16,8 @@ const portfolios = [
     imageSrc: reactWeather,
     url: "react-weather",
     demo:"https://final-project-3130f.web.app/",
-    code:'https://github.com/tanvirrifat1/Car-portal-Client'
+    code:'https://github.com/tanvirrifat1/Car-portal-Client',
+    description:'This Site mainly sells and buys old cars, anyone can sell their car if they want or buy a carSome roles on this site are buyer-seller, and admin, admin can delete any user or buyerAnd the seller can add a car and can advertise a product after clicking on the advertisedTechnology Used: TailwindCss, DaisyUI React, React-Router, Firebase, NodeJS, ExpressJS, MongoDB, JWT'
   },
   {
     id: 2,
@@ -24,15 +25,19 @@ const portfolios = [
     imageSrc: installNode,
     url: "install-node",
     demo:"https://assignment-project-33308.web.app/",
-    code:'https://github.com/tanvirrifat1/assignment-11-client'
+    code:'https://github.com/tanvirrifat1/assignment-11-client',
+    description:' This is a Fast Food Website, There are different types of fast food here.Here is a see-all button if any user clicks the button he can see the list of all types of food.Anyone can buy food And will be added My Review button after clicking and it will show the detailsTechnology Used: TailwindCss, DaisyUI React, React-Router, Firebase, Node, Express, MongoDB, JWT'
+
   },
   {
     id: 3,
     title: "E-Shop",
     imageSrc: usestate,
     url: "use-state-hook",
-    demo:"https://final-project-3130f.web.app/",
-    code:'https://github.com/tanvirrifat1/Car-portal-Client'
+    demo:"https://newproject-52cf8.web.app/",
+    code:'https://github.com/tanvirrifat1/E-shop-client',
+    description:' It is a E-shop website Anyone can book an order for all product services and provide feedback No one can book more than one order for one service with one emailAdmin can add and remove a doctor for the services that are availableTechnology Used: React.js, React-Router, Firebase, Tailwind, NodeJS, Express JS, MongoDB, JWT'
+
   },
   {
     id: 4,
@@ -40,7 +45,9 @@ const portfolios = [
     imageSrc: reactParallax,
     url: "react-parallax",
     demo:"https://doctors-portal-d24d1.web.app/",
-    code:'https://github.com/tanvirrifat1/doctors-portal-client'
+    code:'https://github.com/tanvirrifat1/doctors-portal-client',
+    description:' It is a dentists website Anyone can book an appointment for all dentists services. No one can book more than one appointment for one service with one emailAdmin can add and remove a doctor for the services that are availableTechnology Used: React.js, React-Router, Firebase, Tailwind, NodeJS, Express JS, MongoDB, JWT'
+
   },
 ];
 
@@ -64,7 +71,7 @@ export async function getStaticProps({ params }) {
   return { props: { portfolio } };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc,demo,code } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc,demo,code,description } }) => {
   return (
     <div id="home" className=" h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -86,13 +93,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc,demo,code } }) => {
           <Image src={imageSrc} alt={title} layout="fill" objectFit="cover" />
         </div>
         <h2 className="text-left my-4 text-2xl font-bold">Description</h2>
-        <p>
-        This Site mainly sells and buys old cars, anyone can sell their car if they want or buy a car
-        Some roles on this site are buyer seller and admin, admin can delete any user or buyer
-        And the seller can add a car and can advertise a product after clicking on the advertised
-          <span className="font-semibold">Technology Used: TailwindCss, DaisyUI React, React-Router, Firebase, NodeJS, ExpressJS,MongoDB</span>
-
-        </p>
+       <p>{description}</p>
 
         <div className="flex items-center justify-center gap-10">
           <Link href={demo}>

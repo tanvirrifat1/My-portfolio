@@ -8,6 +8,11 @@ import nextjs from "../public/assets/experience/Bootstrap.png";
 import tailwind from "../public/assets/experience/tailwind.png";
 import graphql from "../public/assets/experience/firebase.png";
 import node from "../public/assets/experience/node.png";
+import nextJS from "../public/assets/experience/nextjs.png";
+import typescript from "../public/assets/experience/typescript.png";
+import postgreSQL from "../public/assets/experience/post.png";
+import Prisma from "../public/assets/experience/prisma.png";
+import Redux from "../public/assets/experience/redux.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Experience = () => {
@@ -52,25 +57,50 @@ const Experience = () => {
       title: "Node JS",
       src: node,
     },
+    {
+      id: 9,
+      title: "Next JS",
+      src: nextJS,
+    },
+    {
+      id: 10,
+      title: "Redux",
+      src: Redux,
+    },
+    {
+      id: 11,
+      title: "Typescript",
+      src: typescript,
+    },
+    {
+      id: 12,
+      title: "PostgreSQL",
+      src: postgreSQL,
+    },
+    {
+      id: 13,
+      title: "Prisma",
+      src: Prisma,
+    },
   ];
 
   return (
     <div id="experience" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-
-        <span className="text-7xl" style={{ color: 'blue', fontWeight: 'bold' }}>
+        <span
+          className="text-7xl"
+          style={{ color: "blue", fontWeight: "bold" }}
+        >
           {/* Style will be inherited from the parent element */}
           <Typewriter
-            words={[' EXPERIENCE']}
+            words={[" EXPERIENCE"]}
             loop={5}
             cursor
             typeSpeed={70}
             deleteSpeed={50}
             delaySpeed={1000}
-
           />
         </span>
-
 
         <h2 className="py-4 max-w-lg">
           Entrance gloating i nothing soul quoth desolate. My he bird still just

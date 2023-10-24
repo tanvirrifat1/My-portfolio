@@ -36,15 +36,10 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        {/* <p className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-          Contact
-        </p> */}
-
         <span
           className="text-7xl"
           style={{ color: "blue", fontWeight: "bold" }}
         >
-          {/* Style will be inherited from the parent element */}
           <Typewriter
             words={["CONTACT"]}
             loop={5}

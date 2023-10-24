@@ -13,6 +13,8 @@ import typescript from "../public/assets/experience/typescript.png";
 import postgreSQL from "../public/assets/experience/post.png";
 import Prisma from "../public/assets/experience/prisma.png";
 import Redux from "../public/assets/experience/redux.png";
+import Redis from "../public/assets/experience/download.png";
+import Ant from "../public/assets/experience/ant.png";
 import { Typewriter } from "react-simple-typewriter";
 
 const Experience = () => {
@@ -81,6 +83,16 @@ const Experience = () => {
       id: 13,
       title: "Prisma",
       src: Prisma,
+    },
+    {
+      id: 14,
+      title: "Redis",
+      src: Redis,
+    },
+    {
+      id: 15,
+      title: "Ant-Design",
+      src: Ant,
     },
   ];
 

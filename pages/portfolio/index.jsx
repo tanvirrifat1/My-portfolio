@@ -1,5 +1,5 @@
 import React from "react";
-import installNode from "../../public/assets/portfolio/project2.png";
+import installNode from "../../public/assets/portfolio/plumCo.png";
 import reactParallax from "../../public/assets/portfolio/project4.png";
 import usestate from "../../public/assets/portfolio/project3.png";
 import reactWeather from "../../public/assets/portfolio/project1.png";
@@ -11,16 +11,18 @@ export const getStaticProps = async () => {
   const portfolios = [
     {
       id: 1,
-      title: "react weather app",
-      imageSrc: reactWeather,
-      url: "react-weather",
-    },
-    {
-      id: 2,
       title: "install node",
       imageSrc: installNode,
       url: "install-node",
     },
+
+    {
+      id: 2,
+      title: "react weather app",
+      imageSrc: reactWeather,
+      url: "react-weather",
+    },
+
     {
       id: 3,
       title: "use state explained",

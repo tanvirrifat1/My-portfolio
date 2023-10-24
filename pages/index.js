@@ -9,7 +9,7 @@ export default function Index() {
   return (
     <div>
       <Head>
-        <title>Tanvir Ahmed Rifat</title>
+        <title>Md Rifat Miah</title>
       </Head>
       <Home />
       <Portfolio />

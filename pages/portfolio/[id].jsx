@@ -2,7 +2,7 @@ import React from "react";
 import installNode from "../../public/assets/portfolio/plumCo.png";
 import reactParallax from "../../public/assets/portfolio/project4.png";
 import usestate from "../../public/assets/portfolio/project3.png";
-import reactWeather from "../../public/assets/portfolio/project1.png";
+import reactWeather from "../../public/assets/portfolio/ss.png";
 import Image from "next/image";
 import { AiOutlineCaretRight } from "react-icons/ai";
 import { BiChevronLeft } from "react-icons/bi";
@@ -23,13 +23,13 @@ const portfolios = [
 
   {
     id: 2,
-    title: "MOTORS",
+    title: "Time-Square",
     imageSrc: reactWeather,
     url: "react-weather",
-    demo: "https://final-project-3130f.web.app/",
-    code: "https://github.com/tanvirrifat1/Car-portal-Client",
+    demo: "https://watch-shop373.netlify.app/",
+    code: "https://github.com/tanvirrifat1/hand-watch-shop-client",
     description:
-      "This Site mainly sells and buys old cars, anyone can sell their car if they want or buy a carSome roles on this site are buyer-seller, and admin, admin can delete any user or buyerAnd the seller can add a car and can advertise a product after clicking on the advertisedTechnology Used: TailwindCss, DaisyUI React, React-Router, Firebase, NodeJS, ExpressJS, MongoDB, JWT",
+      "It’s a Time-Square Watch shop, Here is more watch category. Here is two category DashBoard, user DashBoard, and Admin Dashboard. The userjust Ordered a watch and deleted his order and also provided any feedback.Admin can manage all parts and also manage any user.No one can order before login",
   },
 
   {

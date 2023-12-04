@@ -2,7 +2,7 @@ import React from "react";
 import installNode from "../public/assets/portfolio/plumCo.png";
 import reactParallax from "../public/assets/portfolio/project4.png";
 import usestate from "../public/assets/portfolio/project3.png";
-import reactWeather from "../public/assets/portfolio/project1.png";
+import reactWeather from "../public/assets/portfolio/ss.png";
 import Image from "next/image";
 import Link from "next/link";
 import { MdExpandMore } from "react-icons/md";
@@ -19,7 +19,7 @@ const Portfolio = () => {
 
     {
       id: 2,
-      title: "MOTORS",
+      title: "Time-Square",
       imageSrc: reactWeather,
       url: "react-weather",
     },

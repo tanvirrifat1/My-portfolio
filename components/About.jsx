@@ -31,13 +31,12 @@ const About = () => {
             />
           </p>
           <p className="py-4 max-w-2xl mx-auto">
-            Straight bends all i a shutter. Though is prophet being much of
-            whether forget the. Tapping only heart nothing this and chamber
-            sitting word if. Obeisance by before the i bore more only i
-            shrieked. Visiter i implore came for. Of then soul raven thy visiter
-            scarce bust, i truly whose door unhappy the a. Help smiling the
-            plutonian thrilled my of wandering name surely, dirges the in the
-            burning there nothing that bore. The.
+            My career goal is to specialize as a full-stack developer,
+            specializing in ReactJS and Next.js. On the front end, Prisma,
+            MongoDB, and PostgreSQL for the back end. I am constantly committed
+            Thrives in learning and adopting new technologies. My goal in life
+            is to become a good quality developer so that I can see myself as a
+            good position
           </p>
         </div>
         <div className="flex items-center justify-center gap-10">

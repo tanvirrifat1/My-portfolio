@@ -1,7 +1,7 @@
 import React from "react";
 import installNode from "../../public/assets/portfolio/plumCo.png";
 import reactParallax from "../../public/assets/portfolio/project4.png";
-import usestate from "../../public/assets/portfolio/project3.png";
+import usestate from "../../public/assets/portfolio/project5.png";
 import reactWeather from "../../public/assets/portfolio/ss.png";
 import Image from "next/image";
 import { AiOutlineCaretRight } from "react-icons/ai";
@@ -34,13 +34,13 @@ const portfolios = [
 
   {
     id: 3,
-    title: "E-Shop",
+    title: "Hot-Tube-Cinema",
     imageSrc: usestate,
     url: "use-state-hook",
-    demo: "https://newproject-52cf8.web.app/",
-    code: "https://github.com/tanvirrifat1/E-shop-client",
+    demo: "https://hot-tube-server747.netlify.app/",
+    code: "https://github.com/tanvirrifat1/Hot-Tube-Cinema-Client",
     description:
-      " It is a E-shop website Anyone can book an order for all product services and provide feedback No one can book more than one order for one service with one emailAdmin can add and remove a doctor for the services that are availableTechnology Used: React.js, React-Router, Firebase, Tailwind, NodeJS, Express JS, MongoDB, JWT",
+      "This is a cinema website, Here are different types of movie, There are different TV shows and movies here and you can watch as much data as You want. anyone can save movies after login.Sorting the data and saving the movies or TV shows was challenging.Technology Used: ReactJS, Redux-Toolkit, SCSS, Firebase, Express, Mongoose, NODEJS, JWT",
   },
   {
     id: 4,

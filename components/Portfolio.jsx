@@ -1,7 +1,7 @@
 import React from "react";
 import installNode from "../public/assets/portfolio/plumCo.png";
 import reactParallax from "../public/assets/portfolio/project4.png";
-import usestate from "../public/assets/portfolio/project3.png";
+import usestate from "../public/assets/portfolio/project5.png";
 import reactWeather from "../public/assets/portfolio/ss.png";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +26,7 @@ const Portfolio = () => {
 
     {
       id: 3,
-      title: "E-Shop",
+      title: "Hot-Tube-Cinema",
       imageSrc: usestate,
       url: "use-state-hook",
     },

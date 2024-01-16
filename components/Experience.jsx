@@ -12,6 +12,7 @@ import nextJS from "../public/assets/experience/nextjs.png";
 import typescript from "../public/assets/experience/typescript.png";
 import postgreSQL from "../public/assets/experience/post.png";
 import Prisma from "../public/assets/experience/prisma.png";
+import MongoDb from "../public/assets/experience/images.jpeg";
 import Redux from "../public/assets/experience/redux.png";
 import Redis from "../public/assets/experience/download.png";
 import Ant from "../public/assets/experience/ant.png";
@@ -86,11 +87,16 @@ const Experience = () => {
     },
     {
       id: 14,
+      title: "MongoDB",
+      src: MongoDb,
+    },
+    {
+      id: 15,
       title: "Redis",
       src: Redis,
     },
     {
-      id: 15,
+      id: 16,
       title: "Ant-Design",
       src: Ant,
     },

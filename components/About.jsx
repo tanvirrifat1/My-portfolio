@@ -21,7 +21,7 @@ const About = () => {
           <p className="py-4 max-w-2xl mx-auto">
             <Typewriter
               words={[
-                "I am a positive, enthusiastic Mern Stack Web developer. I build up a diverse range ofskills, qualities, and attributes that I will perform highly in this role. I have extensiveexperience working both alone and as part of a team often time-sensitive.I want to learn a lot more like nextJS, redux, socket IO, etc. I take my work as a Web Developer seriously and this means I always ensure my skillsare kept up to date within this rapidly changing industry.",
+                "I am a positive, enthusiastic Full Stack Web developer. I build up a diverse range ofskills, qualities, and attributes that I will perform highly in this role. I have extensiveexperience working both alone and as part of a team often time-sensitive.I want to learn a lot more like nextJS, redux, socket IO, etc. I take my work as a Web Developer seriously and this means I always ensure my skillsare kept up to date within this rapidly changing industry.",
               ]}
               loop={5}
               cursor
@@ -40,7 +40,7 @@ const About = () => {
           </p>
         </div>
         <div className="flex items-center justify-center gap-10">
-          <Link href="/Rifat-Full-Stack-resume.pdf" download={true}>
+          <Link href="/Rifat-full-stax-resume.pdf" download={true}>
             <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               resume
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">

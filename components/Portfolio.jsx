@@ -41,25 +41,27 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <span
-          className="text-7xl"
-          style={{ color: "blue", fontWeight: "bold" }}
-        >
-          {/* Style will be inherited from the parent element */}
-          <Typewriter
-            words={["PORTFOLIO"]}
-            loop={5}
-            cursor
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1000}
-          />
-        </span>
+        <div className="lg:ml-24 ">
+          <span
+            className="text-7xl"
+            style={{ color: "blue", fontWeight: "bold" }}
+          >
+            {/* Style will be inherited from the parent element */}
+            <Typewriter
+              words={["PORTFOLIO"]}
+              loop={5}
+              cursor
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+            />
+          </span>
 
-        <h2 className="py-4 max-w-lg">
-          Entrance gloating i nothing soul quoth desolate. My he bird still just
-          of theeby lattice. Nearly ominous leave god is.
-        </h2>
+          <h2 className="py-4 max-w-lg">
+            Entrance gloating i nothing soul quoth desolate. My he bird still
+            just of theeby lattice. Nearly ominous leave god is.
+          </h2>
+        </div>
         <div className="max-w-5xl h-[700px] mx-auto grid md:grid-cols-2 gap-8">
           {portfolios.map(({ id, title, imageSrc, url }) => (
             <Link key={id} href={`/portfolio/${url}`}>
